@@ -1,4 +1,5 @@
 #!mast .yardopts .ruby bin demo lib man qed spec test try [A-Z]*.*
+.ruby
 lib/pic.rb
 spec/pic.md
 LICENSE.txt
