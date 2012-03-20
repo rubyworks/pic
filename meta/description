@@ -1,0 +1,3 @@
+PIC is a pattern matching library, like regular expressions, based on Cobol
+edited pictures. It's advantage over regular expressions is it more concise
+syntax which geared specifically toward validation of user input.
