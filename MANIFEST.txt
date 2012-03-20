@@ -1,0 +1,6 @@
+#!mast .yardopts .ruby bin demo lib man qed spec test try [A-Z]*.*
+lib/pic.rb
+spec/pic.md
+LICENSE.txt
+HISTORY.md
+README.md
