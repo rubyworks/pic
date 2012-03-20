@@ -28,7 +28,12 @@ module PIC
     #
     alias_method :to_regexp, :to_re
 
-    private
+    #
+    def =~(string)
+      to_re =~ string
+    end
+
+  private
 
     #
     def remap(s)

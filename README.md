@@ -17,7 +17,7 @@ as an alternative to Regular Expressions for common data format needs.
 
 ## Examples
 
-  PIC['Z.99'].to_re  #=> /\d*\.\d\d/
+    PIC['Z.99'].to_re  #=> /\d*\.\d\d/
 
 
 ## Status
