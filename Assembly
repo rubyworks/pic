@@ -25,12 +25,12 @@ yard:
   priority: 2
 
 qed:
-  files: spec
+  files: demo
 
 qedoc:
   title: Edited Pictures for Ruby
-  files: spec
-  output: SPECS.md
+  files: demo
+  output: DEMO.md
 
 vclog:
   output: 
