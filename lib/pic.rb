@@ -1,21 +1,39 @@
 module PIC
 
   #
+  # Shortcut to `PIC::Template.new(pic)`.
+  #
+  # @return [PIC::Template]
+  #
   def self.[](pic)
     Template.new(pic)
   end
 
+  # Template class encapsulates a picture, handles
+  # converting it to a regular expression and delagates
+  # to it for matching.
   #
   class Template
 
+    #
+    # New pic template.
+    #
+    # @param [String] pic
+    #   Picture to use for matching.
     #
     def initialize(pic)
       @pic = pic
     end
 
     #
+    # The picture.
+    #
+    # @return [String] picture.
+    #
     attr :pic
 
+    #
+    # Convert picture to a regular epression.
     #
     def to_re
       re = ''
@@ -26,11 +44,34 @@ module PIC
     end
 
     #
+    # Alias for `#to_re`.
+    #
     alias_method :to_regexp, :to_re
 
     #
+    # Match picture to given string.
+    #
+    # @param [String] string
+    #   String to match picture against.
+    #
+    # @return [Fixnum] index position in string of match.
+    #
     def =~(string)
-      to_re =~ string
+      to_re =~ string.to_str
+    end
+
+    alias === =~
+
+    #
+    # Checks for a non-match of the picture to a given string.
+    #
+    # @param [String] string
+    #   String to match picture against.
+    #
+    # @return [Fixnum] index position in string of match.
+    #
+    def !~(string)
+      to_re !~ string.to_str
     end
 
   private
