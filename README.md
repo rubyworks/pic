@@ -1,6 +1,6 @@
 [Website](http://rubyworks.github.com/pic) /
 [Report Issue](http://github.com/rubyworks/pic/issues) /
-[Source Code](http://github.com/rubyworks/pic) /
+[Source Code](http://github.com/rubyworks/pic)
 ( [![Build Status](https://secure.travis-ci.org/rubyworks/pic.png)](http://travis-ci.org/rubyworks/pic) )
 
 
@@ -34,6 +34,8 @@ Per the usual RubyGems way:
 
 
 ## Reference Material
+
+The following links help explain concept of Edited Pictures.
 
 * [Edited Pictures](http://www.csis.ul.ie/cobol/course/EditedPics.htm)
 
