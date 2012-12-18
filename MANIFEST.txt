@@ -1,7 +1,9 @@
-#!mast .yardopts .ruby bin demo lib man qed spec test try [A-Z]*.*
+#!mast -x *.lock .index .ruby .yardopts bin demo lib man spec test try [A-Z]*.*
+.index
 .ruby
+demo/pic.md
 lib/pic.rb
-spec/pic.md
 LICENSE.txt
 HISTORY.md
 README.md
+DEMO.md
