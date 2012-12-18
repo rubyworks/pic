@@ -1,7 +1,7 @@
 [Homepage](http://rubyworks.github.com/pic) /
 [Report Issue](http://github.com/rubyworks/pic/issues) /
 [Mailing List](http://groups.google.com/rubyworks-mailinglist) /
-[IRC Channel](http://chat.us.freenode.net/rubyworks) /
+[IRC Channel](irc://irc.freenode.net/rubyworks) /
 [Source Code](http://github.com/rubyworks/pic) /
 ( [![Build Status](https://secure.travis-ci.org/rubyworks/pic.png)](http://travis-ci.org/rubyworks/pic) )
 
