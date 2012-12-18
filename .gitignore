@@ -1,10 +1,8 @@
-.reap/digest
+.fire/digest
 .yardoc
 doc
 log
-pkg/*.gem
-pkg/*.gz
 tmp
-DEMO*.*
 web
 work/sandbox
+DEMO*.*
