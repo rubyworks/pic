@@ -1,7 +1,5 @@
-[Homepage](http://rubyworks.github.com/pic) /
+[Website](http://rubyworks.github.com/pic) /
 [Report Issue](http://github.com/rubyworks/pic/issues) /
-[Mailing List](http://groups.google.com/rubyworks-mailinglist) /
-[IRC Channel](irc://irc.freenode.net/rubyworks) /
 [Source Code](http://github.com/rubyworks/pic) /
 ( [![Build Status](https://secure.travis-ci.org/rubyworks/pic.png)](http://travis-ci.org/rubyworks/pic) )
 
@@ -38,6 +36,21 @@ Per the usual RubyGems way:
 ## Reference Material
 
 * [Edited Pictures](http://www.csis.ul.ie/cobol/course/EditedPics.htm)
+
+
+## Contributing
+
+### General Discussion
+
+If you do not have specific issue to report but would still like to discuss this library, 
+you can send a message to the [Rubyworks Mailing List](http://groups.google.com/rubyworks-mailinglist),
+or try to catch up with us via the [#rubyworks](irc://irc.freenode.net/rubyworks) IRC channel.
+
+### Submitting Patches
+
+Sending a code snippet is fine for very small changes. But beyond a few lines
+of code, please use git via Github to submit pull requests. It is best to submit
+a dedicated feature branch, and tests are *always* much appreciated.
 
 
 ## Copyright & License
