@@ -1,12 +1,4 @@
 ---
-email:
-  file: ~
-  subject: ~
-  mailto: 
-    - ruby-talk@ruby-lang.org
-    - rubyworks-mailinglist@googlegroups.com
-  #parts: [readme]
-
 gem:
   gemspec: pkg/pic.gemspec
   active: true
@@ -36,4 +28,12 @@ vclog:
   output: 
     - log/history.html
     - log/changes.html
+
+email:
+  file: ~
+  subject: ~
+  mailto: 
+    - ruby-talk@ruby-lang.org
+    - rubyworks-mailinglist@googlegroups.com
+  #parts: [readme]
 
